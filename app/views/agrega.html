@@ -1,0 +1,47 @@
+
+
+
+<div ng-app="angularSpa"> 
+
+ <div style="position:absolute; top:180px;">
+
+
+  
+
+
+<h1>Agregar actor</h1>
+<div ng-controller="agregaCtrl as up">
+    <form novalidate="novalidate" class="form-horizontal">
+        <div class="control-group">
+            <label class="control-label" for="inputNombre">Nombre:</label>
+            <div class="controls">
+                <input type="text" ng-model="newNombre"/>
+            </div>
+       
+       
+        <div class="control-group">
+            <label class="control-label" for="inputContrasena">lastName:</label>
+            <div class="controls">
+                <input type="text"  ng-model="newLastName"/>
+            </div>
+        </div>
+        
+
+
+
+
+        <div class="control-group">
+            <div class="controls">
+              <!-- user-detail.html: -->
+              
+               <div style="position:absolute; top:190px;">
+
+              <!-- user-creation.html: -->
+                <a ng-click=  "logPost()" class="btn btn-small btn-primary">Agregar</a>
+              
+                
+            </div>
+        </div>
+    </form>
+ </div>
+</div>
